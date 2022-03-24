@@ -1,0 +1,97 @@
+:root {
+    --cor-butao: #077315;
+    --cor-butao-foco: #09B020;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.butao-pesquisa {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding:10px;
+    gap: 300px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.item-menu {
+    font-size: 20px;
+}
+
+.logo {
+    width: 90px; 
+}
+.titulo {
+    display: flex;
+    flex-grow: 100;
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.livro {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    /* padding-left: 70px; */
+    justify-content: space-around;
+}
+
+.sumario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* padding-left: 70px; */
+    padding-bottom: 20px;
+}
+
+.resumo {
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.butao {
+    height: 70px;
+    width: 200px;
+    color: white;
+    background-color: var(--cor-butao);
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.butao:hover {
+    background-color: var(--cor-butao-foco);
+}
+
+.rodape {
+    border-top: 2px solid gray;
+    padding: 30px;
+}
